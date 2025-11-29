@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="style.css"/>
     <title>Indian Recipe Generator
     </title>
@@ -15,14 +16,13 @@
     </h1>
     </header>
     <main>
-        <form>
+        <form id="recipe-generator">
             <input type="text" class="search"
-            placeholder="Enter dish name &#x1F9C9 &#x1F9C9" autofocus 
+            placeholder="Enter dish name &#x1F9C9 &#x1F9C9 . . ." autofocus 
             required autocomplete="off">
             <input type="submit" class="enter" />
         </form>
-        <div class="recipe">List of ingrediants</br>
-          Recipe process</br></div>
+        <div class="recipe" id="recipe"></div>
     </main>
 
 
@@ -30,7 +30,7 @@
 <footer>This AI project coded by <a href="https://github.com/Shalini-jadala" target="_blank"> 💗Shalini Jadala💗</a> 
 and open sourced on <a href="https://github.com/Shalini-jadala?tab=repositories" target="_blank">github</a></footer>
     </div>   
-    <script src="src/index.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>
