@@ -9,12 +9,6 @@ new Typewriter("#recipe", {
 });
 
 }
-
-
-
-
-
-
 function generateRecipe(event){
     event.preventDefault();
 let inputs =document.querySelector("#user-input");
